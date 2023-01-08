@@ -1,0 +1,109 @@
+-------------------------------------------------------------------------------
+Test set: TestRunners.BillingTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.088 s <<< FAILURE! - in TestRunners.BillingTest
+billing amount #1(Calculate billing amount)  Time elapsed: 0.017 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user is on billing page" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user is on billing page")
+public void user_is_on_billing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("user enters billing amount {string}")
+public void user_enters_billing_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters tax amount {string}")
+public void user_enters_tax_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on calculate button")
+public void user_click_on_calculate_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("it gives the final amount {string}")
+public void it_gives_the_final_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+billing amount #2(Calculate billing amount)  Time elapsed: 0.014 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user is on billing page" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user is on billing page")
+public void user_is_on_billing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("user enters billing amount {string}")
+public void user_enters_billing_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters tax amount {string}")
+public void user_enters_tax_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on calculate button")
+public void user_click_on_calculate_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("it gives the final amount {string}")
+public void it_gives_the_final_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+billing amount #3(Calculate billing amount)  Time elapsed: 0.012 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user is on billing page" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user is on billing page")
+public void user_is_on_billing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("user enters billing amount {string}")
+public void user_enters_billing_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters tax amount {string}")
+public void user_enters_tax_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on calculate button")
+public void user_click_on_calculate_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("it gives the final amount {string}")
+public void it_gives_the_final_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
