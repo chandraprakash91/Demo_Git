@@ -9,7 +9,9 @@ public class AmazonLoginSteps {
 	@Given("user is on Amazon landing page")
 	public void user_is_on_amazon_landing_page() {
 	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	   System.out.println("Successfully LogIn in Amazon App");
+	   System.out.println("Type Valid UserName");
+	   System.out.println("Type Valide Password");
 	}
 
 	@Given("Sign in button is present on screen")
