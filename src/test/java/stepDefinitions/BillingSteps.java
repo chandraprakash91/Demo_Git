@@ -15,6 +15,8 @@ public class BillingSteps {
 	
 	@Given("user is on billing page")
 	public void user_is_on_billing_page() {
+		System.out.println("Pay with credit/debit card");
+		System.out.println("Enter your PIN");
 	    
 	}
 

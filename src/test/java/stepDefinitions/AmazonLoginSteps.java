@@ -12,6 +12,10 @@ public class AmazonLoginSteps {
 	   System.out.println("Successfully LogIn in Amazon App");
 	   System.out.println("Type Valid UserName");
 	   System.out.println("Type Valide Password");
+	   //starting
+	   //Secondn file
+	   System.out.println("Select item");
+	   System.out.println("Add To Cart");
 	}
 
 	@Given("Sign in button is present on screen")
