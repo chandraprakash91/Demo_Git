@@ -23,6 +23,8 @@ public class BillingSteps {
 	@When("user enters billing amount {string}")
 	public void user_enters_billing_amount(String billingAmount) {
 	   this.billingAmount = Double.parseDouble(billingAmount);
+	   System.out.println("billing_Amount");
+	   System.out.println("Amount in rupees");
 	}
 	
 //	@When("user enters tax amount {double}")
@@ -33,6 +35,7 @@ public class BillingSteps {
 	@When("user enters tax amount {string}")
 	public void user_enters_tax_amount(String taxAmount) {
 	    this.taxAmount =  Double.parseDouble(taxAmount);
+	    System.out.println("taxAmount");
 	}
 
 	@When("user click on calculate button")
